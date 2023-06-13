@@ -22,7 +22,7 @@ public class TaskValidator {
 
     private static String validateContent(String content) {
         if(content == null || content.equals("")) {
-            return "メッセージを入力してください。";
+            return "タスク内容を入力してください。";
         }
 
         return "";
